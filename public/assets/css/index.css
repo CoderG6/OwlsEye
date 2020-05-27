@@ -1,0 +1,32 @@
+@import 'reset.css';
+@import 'header.css';
+@import 'footer.css';
+
+body, div, article, aside, footer, header, main, nav, section, ul, ol, li, button, figure {
+    display: flex;
+}
+
+body {
+    width: 100%;
+    background-color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    flex-direction: column;
+}
+div {
+    flex-direction: column;
+}
+header {
+    flex-direction: column;
+}
+footer {
+    flex-direction: column;
+}
+section {
+    flex-direction: column;
+}
