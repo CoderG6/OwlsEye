@@ -2,13 +2,18 @@
 @import 'header.css';
 @import 'footer.css';
 
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 body, div, article, aside, footer, header, main, nav, section, ul, ol, li, button, figure {
     display: flex;
 }
 
 body {
     width: 100%;
-    background-color: var(--white);
+    background-color: var(--white36);
     font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
     padding: 0;

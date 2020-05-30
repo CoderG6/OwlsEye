@@ -1,26 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/assets/css/index.css">
+    <link rel="shortcut icon" href="/public/logos/OwlsEye.svg" type="image/x-icon">
     <title>OwlsEye</title>
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
 
     <header class="header">
         <div id="overlay" data-close="menu"></div>
-            <img class="log" src="/public/assets/logos/eagleye-log.svg" alt="logo">
+            <img class="log" src="/public/logos/eagleye-log.svg" alt="logo">
                 <button type="button" id="btn-open">
-                    <img src="/public/assets/images/open-menu.svg" alt="btn-open">
+                    <img src="/public/images/open-menu.svg" alt="btn-open">
                 </button>
             <nav class="menu">
                 <button type="button" id="btn-close" data-close="menu">
-                    <img src="/public/assets/images/close-menu.svg" alt="close">
+                    <img src="/public/images/close-menu.svg" alt="close">
                 </button>
                 <ul id="selectors-menu">
                     <li><a href='/public/index.html'>Início</a></li>
-                    <li><a href='/public/models.html'>Modelos</a>
+                    <li class="sub-menu"><a href='/public/models.html'>Modelos</a>
                         <ul>
                             <li><a href="/public/category/male-model.html">Masculino</a></li>
                             <li><a href="/public/category/female-model.html">Feminino</a></li>
@@ -28,13 +28,14 @@
                         </ul>
                     </li>
                     <li><a href='/public/specials.html'>Promoções</a></li>
-                    <li><a href='/public/brands.html'>Marcas</a>
+                    <li class="sub-menu"><a href='/public/brands.html'>Marcas</a>
                         <ul>
                             <li><a href="/public/category/okley-brand.html">Okley</a></li>
                             <li><a href="/public/category/rayban-brand.html">Ray Ban</a></li>
                             <li><a href="/public/category/armani-brand.html">Armani Exchange</a></li>
                         </ul>
                     </li>
+                    <li><a href="/public/sac.html">SAC</a></li>
                 </ul>
             </nav>
     </header>
@@ -43,7 +44,42 @@
     </main>
 
     <footer>
+        <div class="all-baseboards">
+            <div class="online-shopping">
+                <ul>
+                    <li><a href="/public/category/sunglasses.html">Óculos de Sol</a></li>
+                    <li><a href="/public/category/eyeglasses.html">Óculos de Grau</a></li>
+                    <li><a href="/public/brands.html">Nossas Marcas</a></li>
+                </ul>
+            </div>
+            <div class="attendance">
+                <h3>ATENDIMENTO</h3>
 
+                <p>Atendimento Online:</p>
+                <ul>
+                    <li><a href="/public/sac.html">SAC</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>CONTATO</h3>
+                <p>atendimentoweb@owlseye.com.br</p>
+                <p>+55 (11) 98684-2073</p>
+                <p>São Bernardo do Campo - SP</p>
+            </div>
+            <div class="follow-us">
+                <h3>Siga a OwlsEye</h3>
+                <ul>
+                    <li><a href="#"><img src="/public/images/logos/facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="/public/images/logos/instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="/public/images/logos/tweeter.svg" alt="Tweeter"></a></li>
+                    <li><a href="#"><img src="/public/images/logos/youtube.svg" alt="Youtube"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="allrights">
+            <p>© 2020 OwlsEye - Todos os direitos reservados.</p>
+        </div>
     </footer>
+    <script type="text/javascript" src="javascript/index.js"></script>
 </body>
 </html>

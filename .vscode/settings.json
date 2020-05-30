@@ -1,3 +1,17 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 6470,
+
+    "liveServer.settings.root": "public/",
+
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "microsoft-edge --incognito --remote-debugging-port=9222",
+
+    "liveServer.settings.NoBrowser" : false,
+
+    "liveServer.settings.ignoreFiles" : [
+
+        ".vscode/**"
+
+    ]
 }
