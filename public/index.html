@@ -8,15 +8,24 @@
 </head>
 <body>
 
-    <header class="header">
+    <header id="header">
+        <div class="header-topbar">
+            <div class="container">
+                <div class="row">
+                    <span class="header-topbar-content">💥10x sem juros no cartão</span>
+                    <span class="header-topbar-content">Frete grátis acima de R$199</span>
+                    <span class="header-topbar-content">Troca sem custo em até 30 dias</span>
+                </div>
+            </div>
+        </div>
         <div id="overlay" data-close="menu"></div>
-            <img class="log" src="/public/logos/eagleye-log.svg" alt="logo">
+            <img class="log" src="images/logos/OwlsEye.svg" width="100%" height="5em" alt="logo">
                 <button type="button" id="btn-open">
-                    <img src="/public/images/open-menu.svg" alt="btn-open">
+                    <img src="images/logos/open-menu.svg" width="55px" heght="55px" alt="btn-open">
                 </button>
             <nav class="menu">
                 <button type="button" id="btn-close" data-close="menu">
-                    <img src="/public/images/close-menu.svg" alt="close">
+                    <img src="images/logos/close-menu.svg" alt="close">
                 </button>
                 <ul id="selectors-menu">
                     <li><a href='/public/index.html'>Início</a></li>
@@ -38,9 +47,20 @@
                     <li><a href="/public/sac.html">SAC</a></li>
                 </ul>
             </nav>
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                <button id="btnBusca">Buscar</button>
+            </div>
     </header>
 
-    <main>        
+    <main>
+        <section class="expositions">
+            <img src="images/exposition.svg" width="30px" height="20px" alt="Exposition">
+            <img src="images/exposition-sunglasses.svg" alt="Exposition-Sunglasses">
+            <p class="sunglasses"><!-- Frase de Efeito (PENSAR DEPOIS) --></p>
+            <img src="images/exposition-eyeglasses.svg" alt="Eye-Glasses">
+            <p class="eyeglasses"><!-- Frase de Efeito (PENSAR DEPOIS) --></p>
+        </section>       
     </main>
 
     <footer>
@@ -54,7 +74,6 @@
             </div>
             <div class="attendance">
                 <h3>ATENDIMENTO</h3>
-
                 <p>Atendimento Online:</p>
                 <ul>
                     <li><a href="/public/sac.html">SAC</a></li>
@@ -68,11 +87,11 @@
             </div>
             <div class="follow-us">
                 <h3>Siga a OwlsEye</h3>
-                <ul>
-                    <li><a href="#"><img src="/public/images/logos/facebook.svg" alt="Facebook"></a></li>
-                    <li><a href="#"><img src="/public/images/logos/instagram.svg" alt="Instagram"></a></li>
-                    <li><a href="#"><img src="/public/images/logos/tweeter.svg" alt="Tweeter"></a></li>
-                    <li><a href="#"><img src="/public/images/logos/youtube.svg" alt="Youtube"></a></li>
+                <ul class="social">
+                    <li><a href="#"><img src="images/logos/facebook.svg" width="27px" height="30px" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="images/logos/instagram.svg" width="30px" height="30px" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="images/logos/twitter.svg" width="30px" height="30px" alt="Tweeter"></a></li>
+                    <li><a href="#"><img src="images/logos/youtube.svg" width="30px" height="30px" alt="YouTube"></a></li>
                 </ul>
             </div>
         </div>

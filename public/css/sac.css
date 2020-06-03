@@ -1,0 +1,17 @@
+.form .fields .complaint-subject input#subject:active {
+    text-decoration: var(--white);
+    text-decoration: underline;
+}
+
+.form .fields .bg-gradient {
+    background-color: var(--red);
+    margin-top: -1em;
+    height: 5px;
+    width: 150px;
+}
+.form .fields .bg-gradient2 {
+    background-color: var(--blue);
+    margin-top: 1px;
+    height: 5px;
+    width: 125px;
+}

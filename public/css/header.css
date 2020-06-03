@@ -1,0 +1,145 @@
+#header .header-topbar {
+    font-size: 1.1em;
+    background-color: var(--gray36);
+}
+
+.header-topbar * {
+    color: var(--black);
+}
+
+.header-topbar-content {
+    background-color: var(--white);
+    height: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.open-menu {
+    overflow: hidden;
+}
+
+#overlay {
+    transition: all .5s ease-in-out;
+    display: none;
+}
+
+.open-menu #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--black);
+    z-index: 4;
+    display: flex;
+}
+
+.open-menu #header .menu {
+    right: 0px;
+}
+
+#header .menu {
+    transition: left .5s ease-in-out;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    right: -300px;
+    top: 0;
+    z-index: 3;
+    justify-content: space-between;
+}
+
+#header #logo {
+    height: 14em;
+    width: 14em;
+    margin-top: -1em;
+    margin-left: 9em;
+}
+
+#header .menu ul .all-selectors {
+    text-decoration: underline;
+    text-decoration: red;
+}
+
+#divBusca {
+    background-color: var(--white36);
+    border:solid 2px #5F9EA0;
+    margin-left: 15em;
+    margin-top: -1.2em;
+    margin-bottom: 4em;
+    border-radius:10px;
+    width: 250px;
+    height:32px;
+}
+   
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    margin-bottom: 0em;
+    margin-right: -1em;
+    margin-top: 0em;
+    font-size: 18px;
+    border: none;
+    height: 1.5em;
+    width: 15em;
+}
+   
+#btnBusca {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    margin-top: 2.5em;
+    padding-top: -4em;
+    margin-left: 2.4em;
+    height: 40px;
+    border-radius: 0 7px 7px 0;
+    width: 32px;
+    font-weight: bold;
+}
+
+#header #btn-open {
+    margin-top: -7.5em;
+    border: none; 
+    height: 3.2em;
+    width: 3.6em;
+}
+
+#header #divBusca button#btnBusca img#search {
+    position: absolute;
+    transition: all 1s ease-in-out;
+    right: calc(50vw - 60px);
+    top: 15px;
+    z-index: 5;
+}
+
+@media screen and (max-width: 812px) {
+    .header-topbar {
+        height: auto;
+        line-height: 1.5;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .header-topbar .row {
+        justify-content: center;
+    }
+}

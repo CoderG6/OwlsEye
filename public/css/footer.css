@@ -3,6 +3,46 @@ footer {
 }
 
 footer .all-baseboards {
+    text-decoration: var(--white);
     background-color: var(--gray);
     flex-direction: column;
+}
+
+footer .all-baseboards .online-shopping h3 {
+    margin-left: 3em;
+    text-shadow: 2px 2px 2px var(--black);
+    text-decoration: underline;
+    color: var(--white);
+}
+
+footer .all-baseboards .attendance h3 {
+    margin-left: 3em;
+    text-shadow: 2px 2px 2px var(--black);
+    text-decoration: underline;
+    color: var(--white);
+}
+
+footer .all-baseboards .contact h3 {
+    margin-left: 3em;
+    text-shadow: 2px 2px 2px var(--black);
+    text-decoration: underline;
+    color: var(--white);
+}
+
+footer .all-baseboards .follow-us h3 {
+    margin-left: 3em;
+    text-shadow: 2px 2px 2px var(--black);
+    text-decoration: underline;
+    color: var(--white);
+}
+footer .allrights {
+    background-color: var(--blue);
+}
+footer .allrights p {
+    color: var(--white);
+    text-align: center;
+}
+
+footer .allrights .contact h3 {
+    padding-left: 4em;
 }
