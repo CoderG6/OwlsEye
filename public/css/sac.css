@@ -1,5 +1,5 @@
-.form .fields .complaint-subject input#subject:active {
-    text-decoration: var(--white);
+.form .fields .complaint-subject input#subject:hover {
+    text-decoration: var(--blue2);
     text-decoration: underline;
 }
 
@@ -12,6 +12,11 @@
 .form .fields .bg-gradient2 {
     background-color: var(--blue);
     margin-top: 1px;
+    margin-bottom: 1em;
     height: 5px;
     width: 125px;
+}
+
+.form #banner {
+    margin-bottom: 1em;
 }
