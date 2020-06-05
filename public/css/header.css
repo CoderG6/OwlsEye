@@ -75,9 +75,8 @@
     margin-left: 4em;
 }
 
-#header .menu ul .all-selectors {
-    text-decoration: underline;
-    text-decoration: red;
+#header .menu .all-selectors ul>li {
+    color: var(--white); 
 }
 
 #divBusca {
@@ -109,6 +108,11 @@
     width: 2em;
     height: 2em;
     border-radius: 0 7px 7px 0;
+}
+
+#btn-open, #btn-close {
+    position: relative;
+    left: 0;
 }
 
 #header #btn-open {

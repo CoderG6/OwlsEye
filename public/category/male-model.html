@@ -2,63 +2,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/public/logos/OwlsEye.svg" type="image/x-icon">
-    <title>OwlsEye</title>
+    <meta name="theme-color" content="rgb(7, 7, 31)">
+    <link rel="shortcut icon" href="/images/logos/OwlsEye.svg" width="32px" height="32px" type="image/x-icon">
+    <title>OwlsEye &ndash; Masculino</title>
     <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
 
-    <header class="header">
+    <header id="header">
+        <div class="header-topbar">
+            <div class="container">
+                <div class="row">
+                    <span class="header-topbar-content">💥10x sem juros no cartão</span>
+                    <span class="header-topbar-content">Frete grátis acima de R$199</span>
+                    <span class="header-topbar-content">Troca sem custo em até 30 dias</span>
+                </div>
+            </div>
+        </div>
+        
+        <img id="logo" src="images/logos/OwlsEye.svg" width="100%" height="6em" alt="logo">
+        
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar...">
+            <button type="button" id="btnBusca">
+                <img src="images/logos/search.svg" width="2em" height="2em" alt="Busca">
+            </button>
+        </div>
         <div id="overlay" data-close="menu"></div>
-            <img class="log" src="/public/logos/eagleye-log.svg" alt="logo">
-                <button type="button" id="btn-open">
-                    <img src="/public/images/open-menu.svg" alt="btn-open">
-                </button>
-            <nav class="menu">
-                <button type="button" id="btn-close" data-close="menu">
-                    <img src="/public/images/close-menu.svg" alt="close">
-                </button>
-                <ul id="selectors-menu">
-                    <li><a href='/public/index.html'>Início</a></li>
-                    <li class="sub-menu"><a href='/public/models.html'>Modelos</a>
-                        <ul>
-                            <li><a href="/public/category/male-model.html">Masculino</a></li>
-                            <li><a href="/public/category/female-model.html">Feminino</a></li>
-                            <li><a href="/public/category/chield-model.html">Infantíl</a></li>
-                        </ul>
-                    </li>
-                    <li><a href='/public/specials.html'>Promoções</a></li>
-                    <li class="sub-menu"><a href='/public/brands.html'>Marcas</a>
-                        <ul>
-                            <li><a href="/public/category/okley-brand.html">Okley</a></li>
-                            <li><a href="/public/category/rayban-brand.html">Ray Ban</a></li>
-                            <li><a href="/public/category/armani-brand.html">Armani Exchange</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="/public/sac.html">SAC</a></li>
-                </ul>
-            </nav>
+        <button type="button" id="btn-open">
+            <img src="images/logos/open-menu.svg" width="32" height="32" viewbox="0 0 332" alt="open">
+        </button>
+        <nav class="menu">
+            <button type="button" id="btn-close" data-close="menu">
+                <img src="images/logos/close-menu.svg" width="24" height="24" viewbox="0 0 2424" alt="close">
+            </button>
+            <ul id="selectors-menu">
+                <li><a href="/public/index.html">Início</a></li>
+                <li class="sub-menu"><a href="/public/models.html">Modelos</a>
+                    <ul>
+                        <li><a href="/public/category/male-model.html">Masculino</a></li>
+                        <li><a href="/public/category/female-model.html">Feminino</a></li>
+                        <li><a href="/public/category/chield-model.html">Infantíl</a></li>
+                    </ul>
+                </li>
+                <li><a href="/public/specials.html">Promoções</a></li>
+                <li class="sub-menu"><a href="/public/brands.html">Marcas</a>
+                    <ul>
+                        <li><a href="/public/category/okley-brand.html">Okley</a></li>
+                        <li><a href="/public/category/rayban-brand.html">Ray Ban</a></li>
+                        <li><a href="/public/category/armani-brand.html">Armani Exchange</a></li><li>
+                    </li></ul>
+                </li>
+                <li><a href="/public/sac.html">SAC</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>        
     </main>
 
+    <div id="divider"></div>
+
     <footer>
         <div class="all-baseboards">
             <div class="online-shopping">
+                <h3>NOSSOS MODELOS</h3>
                 <ul>
-                    <li><a href="/public/category/sunglasses.html">Óculos de Sol</a></li>
-                    <li><a href="/public/category/eyeglasses.html">Óculos de Grau</a></li>
-                    <li><a href="/public/brands.html">Nossas Marcas</a></li>
+                    <li><a href="/public/category/sunglasses.html" id="link">Óculos de Sol</a></li>
+                    <li><a href="/public/category/eyeglasses.html" id="link">Óculos de Grau</a></li>
+                    <li><a href="/public/brands.html" id="link">Nossas Marcas</a></li>
                 </ul>
             </div>
             <div class="attendance">
                 <h3>ATENDIMENTO</h3>
-
-                <p>Atendimento Online:</p>
-                <ul>
-                    <li><a href="/public/sac.html">SAC</a></li>
-                </ul>
+                <h4>Atendimento Online:</h4>
+                <a href="/public/sac.html" id="link">SAC</a>
             </div>
             <div class="contact">
                 <h3>CONTATO</h3>
@@ -68,13 +86,11 @@
             </div>
             <div class="follow-us">
                 <h3>Siga a OwlsEye</h3>
-                <ul>
-                    <li class="social">
-                        <a href="#"><img src="/public/images/logos/facebook.svg" alt="Facebook"></a>                    
-                        <a href="#"><img src="/public/images/logos/instagram.svg" alt="Instagram"></a>
-                        <a href="#"><img src="/public/images/logos/tweeter.svg" alt="Tweeter"></a>                 
-                        <a href="#"><img src="/public/images/logos/youtube.svg" alt="Youtube"></a>
-                    </li>
+                <ul class="social">
+                    <li><a href="#"><img src="images/logos/facebook.svg" width="27px" height="30px" id="face-is-initial" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="images/logos/instagram.svg" width="30px" height="30px" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="images/logos/twitter.svg" width="30px" height="30px" alt="Tweeter"></a></li>
+                    <li><a href="#"><img src="images/logos/whatsapp.svg" width="30px" height="30px" alt="WhatsApp"></a></li>
                 </ul>
             </div>
         </div>

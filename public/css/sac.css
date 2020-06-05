@@ -20,3 +20,11 @@
 .form #banner {
     margin-bottom: 1em;
 }
+.form #banner .banner {
+    height: 310px;
+    width: 100%;
+}
+
+.form button#button {
+    background-color: var(--white);
+}

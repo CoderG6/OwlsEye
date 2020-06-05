@@ -2,47 +2,72 @@ footer {
     width: 100%;
 }
 
-footer .all-baseboards {
+.all-baseboards {
     text-decoration: var(--white);
+    text-align: center;
     background-color: var(--gray);
     flex-direction: column;
 }
 
-footer .all-baseboards .online-shopping h3 {
-    margin-left: 3em;
+.all-baseboards #link {
+    text-decoration: none;
+    color: var(--orange);
+}
+
+.all-baseboards .online-shopping h3 {
+    text-shadow: 2px 2px 2px var(--black);
+    font-style: Impact, fantasy;
+    text-decoration: underline;
+    color: var(--white);
+}
+
+.all-baseboards .online-shoppin p {
+    color: var(--orange);
+}
+
+.all-baseboards .attendance h3 {
     text-shadow: 2px 2px 2px var(--black);
     text-decoration: underline;
     color: var(--white);
 }
 
-footer .all-baseboards .attendance h3 {
-    margin-left: 3em;
+.all-baseboards .attendance p {
+    color: var(--orange);
+}
+
+.all-baseboards .attendence h4 {
+    color: var(--blue);
+}
+
+.all-baseboards .contact h3 {
     text-shadow: 2px 2px 2px var(--black);
     text-decoration: underline;
     color: var(--white);
 }
 
-footer .all-baseboards .contact h3 {
-    margin-left: 3em;
+.all-baseboards .contact p {
+    color: var(--orange);
+}
+
+.all-baseboards .follow-us h3 {
     text-shadow: 2px 2px 2px var(--black);
     text-decoration: underline;
     color: var(--white);
 }
 
-footer .all-baseboards .follow-us h3 {
-    margin-left: 3em;
-    text-shadow: 2px 2px 2px var(--black);
-    text-decoration: underline;
-    color: var(--white);
+.all-baseboards .follow-us p {
+    color: var(--orange);
 }
-footer .allrights {
+
+.all-baseboards .follow-us .social #face-is-initial {
+    margin-left: 5em;
+}
+
+.allrights {
     background-color: var(--blue);
 }
-footer .allrights p {
+ .allrights p {
     color: var(--white);
     text-align: center;
-}
-
-footer .allrights .contact h3 {
-    padding-left: 4em;
+    font-size: 10px;
 }

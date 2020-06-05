@@ -4,10 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="rgb(7, 7, 31)">
     <link rel="shortcut icon" href="/images/logos/OwlsEye.svg" width="32px" height="32px" type="image/x-icon">
-    <title>OwlsEye</title>
+    <title>OwlsEye &ndash; SAC</title>
     <link rel="stylesheet" href="/css/index.css">
 </head>
-<body cz-shortcut-listen="true">
+<body>
 
     <header id="header">
         <div class="header-topbar">
@@ -65,7 +65,7 @@
                 <div class="bg-gradient"></div>
                 <div class="bg-gradient2"></div>
                 <div id="banner">
-                    <img src="images/sac.png" alt="SAC-Banner">
+                    <img src="images/sac.png" class="banner" alt="SAC-Banner">
                 </div>
                 <div class="complaint-name">
                     <input type="text" name="name" id="name">
@@ -76,10 +76,10 @@
                     <label for="email">Email</label>
                 </div>
                 <div class="complaint-subject">
-                    <label for="subject">Assunto</label>
                     <input type="text" name="subject" id="subject">
+                    <label for="subject">Assunto</label>
                 </div>
-                <button type="button">ENVIAR</button>
+                <button type="button" id="button">ENVIAR</button>
             </div>
         </section>       
     </main>
@@ -91,15 +91,15 @@
             <div class="online-shopping">
                 <h3>NOSSOS MODELOS</h3>
                 <ul>
-                    <li><a href="/public/category/sunglasses.html">Óculos de Sol</a></li>
-                    <li><a href="/public/category/eyeglasses.html">Óculos de Grau</a></li>
-                    <li><a href="/public/brands.html">Nossas Marcas</a></li>
+                    <li><a href="/public/category/sunglasses.html" id="link">Óculos de Sol</a></li>
+                    <li><a href="/public/category/eyeglasses.html" id="link">Óculos de Grau</a></li>
+                    <li><a href="/public/brands.html" id="link">Nossas Marcas</a></li>
                 </ul>
             </div>
             <div class="attendance">
                 <h3>ATENDIMENTO</h3>
-                <p>Atendimento Online:</p>
-                <a href="/public/sac.html">SAC</a>
+                <h4>Atendimento Online:</h4>
+                <a href="/public/sac.html" id="link">SAC</a>
             </div>
             <div class="contact">
                 <h3>CONTATO</h3>
@@ -110,10 +110,10 @@
             <div class="follow-us">
                 <h3>Siga a OwlsEye</h3>
                 <ul class="social">
-                    <li><a href="#"><img src="images/logos/facebook.svg" width="27px" height="30px" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="images/logos/facebook.svg" width="27px" height="30px" id="face-is-initial" alt="Facebook"></a></li>
                     <li><a href="#"><img src="images/logos/instagram.svg" width="30px" height="30px" alt="Instagram"></a></li>
                     <li><a href="#"><img src="images/logos/twitter.svg" width="30px" height="30px" alt="Tweeter"></a></li>
-                    <li><a href="#"><img src="images/logos/youtube.svg" width="30px" height="30px" alt="YouTube"></a></li>
+                    <li><a href="#"><img src="images/logos/whatsapp.svg" width="30px" height="30px" alt="WhatsApp"></a></li>
                 </ul>
             </div>
         </div>
@@ -122,6 +122,5 @@
         </div>
     </footer>
     <script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript"></script>
 </body>
 </html>
