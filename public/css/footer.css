@@ -67,6 +67,7 @@ footer {
     background-color: var(--blue);
 }
  .allrights p {
+    background-color: var(--blue);
     color: var(--white);
     text-align: center;
     font-size: 10px;

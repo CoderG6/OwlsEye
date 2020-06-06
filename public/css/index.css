@@ -27,6 +27,19 @@ body {
     height: 1.5em;
 }
 
+label {
+    padding-bottom: -1em;
+    color: var(--black);
+}
+
+label:focus {
+    color: var(--brown);
+}
+
+label:active {
+    color: var(--white);
+}
+
 main {
     flex-direction: column;
 }
