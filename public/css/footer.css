@@ -64,10 +64,10 @@ footer {
 }
 
 .allrights {
-    background-color: var(--blue);
+    background-color: rgb(7, 7, 31);
 }
  .allrights p {
-    background-color: var(--blue);
+    background-color: var(--blue1);
     color: var(--white);
     text-align: center;
     font-size: 10px;

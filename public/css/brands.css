@@ -1,5 +1,54 @@
-#ower-brands a {
-    height: 10em;
-    width: 13em;
-    box-shadow: var(--grayC);
+#ower-brands .img-oakley {
+    height: 15em;
+    width: 100%;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 25px 0px var(--grayC);
+    box-shadow: 0px 0px 24px 0px var(--grayC); 
+}
+
+h3.title-brands {
+    align-items: center;
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: var(--black);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+p.descriptions-brands {
+    text-align: center;
+    margin-top: -10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: var(--black);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+#ower-brands .img-rayban {
+    height: 15em;
+    width: 100%;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 25px 0px var(--grayC);
+    box-shadow: 0px 0px 24px 0px var(--grayC); 
+}
+
+#ower-brands .img-armani {
+    height: 15em;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 3em;
+    -webkit-box-shadow: 0px 0px 25px 0px var(--grayC);
+    box-shadow: 0px 0px 24px 0px var(--grayC); 
 }

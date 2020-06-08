@@ -24,7 +24,7 @@
     justify-content: center;
     border: 3em var(--blue2);
     background-color: var(--blue);
-    color: var(--white);
+    text-decoration: var(--blue);
 }
 
 .form button#button:focus {

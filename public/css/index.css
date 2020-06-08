@@ -2,6 +2,7 @@
 @import 'header.css';
 @import 'footer.css';
 @import 'sac.css';
+@import 'brands.css';
 
 * {
     box-sizing: border-box;
