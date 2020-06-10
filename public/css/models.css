@@ -1,0 +1,69 @@
+#models h3 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    color: var(--black1e);
+}
+
+#models .a-exposition-male .img-exposition-male {
+    height: 25em;
+    width: 250px;
+    background-repeat: no-repeat;
+}
+
+#models #style-male {
+    margin-bottom: -24.5em;
+}
+
+#models #style-male .male1 {
+    margin-left: 11.5em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models #style-male .male2 {
+    margin-top: -0.7em;
+    margin-left: 11.7em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models #style-male .male3 {
+    margin-top: -0.7em;
+    margin-left: 11.9em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models #style-male .male4 {
+    margin-top: -0.7em;
+    margin-left: 12.1em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models #style-male .male5 {
+    margin-top: -0.7em;
+    margin-left: 12.3em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models #style-male .male6 {
+    margin-top: -0.7em;
+    margin-left: 12.5em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models #style-male .male7 {
+    margin-top: -0.7em;
+    margin-left: 12.7em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models #style-male .male8 {
+    margin-top: -0.7em;
+    margin-left: 12.9em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#models #style-male .male9 {
+    margin-top: -0.7em;
+    margin-left: 13.1em;
+    font-size: 1.6em;
+    font-weight: bold;
+}

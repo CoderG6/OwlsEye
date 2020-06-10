@@ -5,7 +5,26 @@
     width: 150px;
 }
 
+.form .fields .complaint-name input#name {
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    border: 2px ridge var(--grayC);
+}
+.form .fields .complaint-email input#email {
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    border: 2px ridge var(--grayC);
+}
+
+.form .fields .complaint-subject input#subject {
+    height: 3em;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    border: 2px ridge var(--grayC);
+}
+
 .form #banner {
+    margin-top: 1.5em;
     margin-bottom: 1em;
 }
 .form #banner .banner {
@@ -14,23 +33,30 @@
 }
 
 .form button#button {
-    height: 2em;
+    color: rgb(255, 255, 255); 
     width: 6em;
     margin-top: 1em;
-    margin-left: 10.5em;
     margin-bottom: 1.5em;
-    padding-top: 5px;
+    margin-left: 11.7em;
     text-align: center;
-    justify-content: center;
-    border: 3em var(--blue2);
-    background-color: var(--blue);
-    text-decoration: var(--blue);
+    font-size: 12px; 
+    line-height: 12px; 
+    padding: 3px; 
+    border-radius: 25px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+    display: inline-block;
 }
 
-.form button#button:focus {
-    border-color: var(--brown); 
+.form button#button:hover {
+    background: var(--brown);
 }
 
 .form button#button:active {
-    border-color: var(--black);
+    background: var(--black);
 }
