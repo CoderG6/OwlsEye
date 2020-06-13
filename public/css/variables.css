@@ -3,13 +3,17 @@
     --white36: rgb(248, 248, 248);
     --black: #000;
     --black1e: #1e1e1e;
+    --gray38: rgb(238, 238, 238);
     --grayC: #CCC;
-    --gray: rgb(178, 178, 178);
+    --gray78: rgb(178, 178, 178);
     --gray36: #363636;
     --red: rgb(255, 000, 000);
     --red2: #b51a20;
     --orange: rgb(221, 118, 0);
-    --brown: rgb(179, 120, 54)
+    --brown: rgb(179, 120, 54);
     --blue1: rgb(7, 7, 31);
     --blue2: #5F9EA0;
+    --green: rgb(0, 128, 0);
+    --yellow: rgb(255, 255, 0);
+    --pink: rgb(245, 4, 72);
 }

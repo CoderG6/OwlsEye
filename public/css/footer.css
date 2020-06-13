@@ -5,24 +5,26 @@ footer {
 .all-baseboards {
     text-decoration: var(--white);
     text-align: center;
-    background-color: var(--gray);
+    background-color: var(--gray78);
     flex-direction: column;
 }
 
 .all-baseboards #link {
     text-decoration: none;
     color: var(--orange);
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
 }
 
-.all-baseboards .online-shopping h3 {
+.all-baseboards .online-shopping h3>a {
     text-shadow: 2px 2px 2px var(--black);
-    font-style: Impact, fantasy;
     text-decoration: underline;
     color: var(--white);
 }
 
-.all-baseboards .online-shoppin p {
+.all-baseboards .online-shopping p>a {
     color: var(--orange);
+    font-size: 0.8em;
 }
 
 .all-baseboards .attendance h3 {
@@ -60,7 +62,7 @@ footer {
 }
 
 .all-baseboards .follow-us .social #face-is-initial {
-    margin-left: 5em;
+    margin-left: 5.5em;
 }
 
 .allrights {

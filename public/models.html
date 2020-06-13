@@ -1,83 +1,119 @@
 <html lang="pt-br">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="theme-color" content="rgb(7, 7, 31)">
-        <link rel="shortcut icon" href="/images/logos/OwlsEye-Icon.png" width="32px" height="32px" type="image/x-icon">
-        <title>OwlsEye - Modelos</title>
-        <link rel="stylesheet" href="/css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="rgb(7, 7, 31)">
+    <link rel="shortcut icon" href="/images/logos/OwlsEye-Icon.png" width="32px" height="32px" type="image/x-icon">
+    <title>OwlsEye - Modelos</title>
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
     
     <header id="header">
-            <div class="header-topbar">
-                <div class="container">
-                    <div class="row">
-                        <span class="header-topbar-content">💥10x sem juros no cartão</span>
-                        <span class="header-topbar-content">Frete grátis acima de R$199</span>
-                        <span class="header-topbar-content">Troca sem custo em até 30 dias</span>
-                    </div>
-                </div>
-            </div>
-            
-            <img id="logo" src="images/logos/OwlsEye.svg" width="100%" height="6em" alt="logo">
-            
-            <div id="divBusca">
-                <input type="text" id="txtBusca" placeholder="Buscar...">
-                <button type="button" id="btnBusca">
-                    <img src="images/logos/search.svg" width="2em" height="2em" alt="Busca">
-                </button>
-            </div>
-            <div id="overlay" data-close="menu"></div>
-            <button type="button" id="btn-open">
-                <img src="images/logos/open-menu.svg" width="32" height="32" viewbox="0 0 332" alt="open">
+        <div class="header-topbar"></div>
+        
+        <img id="logo" src="/images/logos/OwlsEye.svg" width="100%" height="6em" alt="logo">
+        
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar...">
+            <button type="button" id="btnBusca">
+                <img src="images/logos/search.svg" width="2em" height="2em" alt="Busca">
             </button>
-            <nav class="menu">
-                <button type="button" id="btn-close" data-close="menu">
-                    <img src="images/logos/close-menu.svg" width="24" height="24" viewbox="0 0 2424" alt="close">
-                </button>
-                <ul id="selectors-menu">
-                    <li><a href="/">Início</a></li>
-                    <li class="sub-menu"><a href="/public/models.html">Modelos</a>
-                        <ul>
-                            <li><a href="/public/category/male-model.html">Masculino</a></li>
-                            <li><a href="/public/category/female-model.html">Feminino</a></li>
-                            <li><a href="/public/category/chield-model.html">Infantíl</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="/public/specials.html">Promoções</a></li>
-                    <li class="sub-menu"><a href="/public/brands.html">Marcas</a>
-                        <ul>
-                            <li><a href="/public/category/oakley-brand.html">Oakley</a></li>
-                            <li><a href="/public/category/rayban-brand.html">Ray Ban</a></li>
-                            <li><a href="/public/category/armani-brand.html">Armani Exchange</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="/public/sac.html">SAC</a></li>
-                </ul>
-            </nav>
+        </div>
+        <div id="overlay" data-close="menu"></div>
+        <button type="button" id="btn-open">
+            <img src="images/logos/open-menu.svg" width="32" height="32" viewbox="0 0 332" alt="open">
+        </button>
+        <nav class="menu">
+            <button type="button" id="btn-close" data-close="menu">
+                <img src="images/logos/close-menu.svg" width="24" height="24" viewbox="0 0 2424" alt="close">
+            </button>
+            <ul id="selectors-menu">
+                <li><a href="/">Início</a></li>
+                <li class="sub-menu"><a href="/models.html">Modelos</a>
+                    <ul>
+                        <li><a href="/category/male-model.html">Masculino</a></li>
+                        <li><a href="/category/female-model.html">Feminino</a></li>
+                        <li><a href="/category/chield-model.html">Infantíl</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu"><a href="/brands.html">Marcas</a>
+                    <ul>
+                        <li><a href="/category/oakley-brand.html">Oakley</a></li>
+                        <li><a href="/category/rayban-brand.html">Ray Ban</a></li>
+                        <li><a href="/category/armani-brand.html">Armani Exchange</a></li>
+                    </ul>
+                </li>
+                <li><a href="/sac.html">SAC</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section id="models">
             <h3>Aqui na OwlsEye você encontra os mais mais variados modelos dentre eles nós dividimos em...</h3>
-            <div id="style-male">
-                <p class="male1">M</p>
-                <p class="male2">A</p>
-                <p class="male3">S</p>
-                <p class="male4">C</p>
-                <p class="male5">U</p>
-                <p class="male6">L</p>
-                <p class="male7">I</p>
-                <p class="male8">N</p>
-                <p class="male9">O</p>
-            </div>
-            
-            <a class="a-exposition-male" href="category/male-model.html">
-                <img src="images/exposition-male.jpg" class="img-exposition-male" height="300em" width="250px%" alt="Exposition Male">
-            </a>
 
-            <p class="description-male"></p>
+            <div class="box-style-model">
+                <div id="box-male">
+                    <div id="style-male">
+                        <p class="male1">M</p>
+                        <p class="male2">A</p>
+                        <p class="male3">S</p>
+                        <p class="male4">C</p>
+                        <p class="male5">U</p>
+                        <p class="male6">L</p>
+                        <p class="male7">I</p>
+                        <p class="male8">N</p>
+                        <p class="male9">O</p>
+                    </div>
+                    
+                    <a class="a-exposition-male" href="category/male-model.html">
+                        <img src="images/exposition-male.jpg" class="img-exposition-male" height="300em" width="250px%" alt="Exposition Male">
+                    </a>
+        
+                    <p class="description-male">Na OwlsEye você encontra os mais variados estilos de óculos. Uma série de opções para o seu estilo. <a href="category/male-model.html">Clique Aqui</a> para ter acesso aos nossos óculos de grau e sol para você, Homem Moderno e que exige alta qualidade</p>
+                </div>
+
+                <div id="box-female">
+                    <div id="style-female">
+                        <p class="female1">F</p>
+                        <p class="female2">E</p>
+                        <p class="female3">M</p>
+                        <p class="female4">I</p>
+                        <p class="female5">N</p>
+                        <p class="female6">I</p>
+                        <p class="female7">N</p>
+                        <p class="female8">O</p>
+                    </div>
+    
+                    <a class="a-exposition-female" href="category/female-model.html">
+                        <img src="images/exposition-female.jpg" class="img-exposition-female" height="300em" width="250px%" alt="Exposition Female">
+                    </a>
+    
+                    <p class="description-female">Aqui na OwlsEye levamos em conta a sutileza, delicadeza e a opnião de você, Mulher, que têm estilo pröprio e que se preocupa com detalhes. Nossos óculos atendem alto padrão de qualidade, que vão superar sua expectativa. <a href="category/female-model.html">Clique Aqui</a> e acesse nossa seção exclusiva para mulheres</p>
+                </div>
+
+                <div id="box-childish">
+                    <div class="text-sobreposition">
+                        <a class="a-exposition-childish" href="category/childish-model.html">
+                            <img src="images/exposition-childish.jpg" class="img-exposition-childish" alt="Exposition Childish">
+                        </a>
+                        
+                        <div id="style-childish">
+                            <p class="childish1">I</p>
+                            <p class="childish2">N</p>
+                            <p class="childish3">F</p>
+                            <p class="childish4">A</p>
+                            <p class="childish5">N</p>
+                            <p class="childish6">T</p>
+                            <p class="childish7">I</p>
+                            <p class="childish8">L</p>
+                        </div>
+                    </div>
+
+                    <p class="description-childish">Você mamãe e papai que se preocupa com a saúde ocular de seu filho, mas não abre mão do estilo e qualidade para seu pimpolho não pode deixar de acessar nossa seção kids. <a href="category/childish-model.html">Clique aqui e confira</a></p>
+                </div>
+            </div>
         </section>        
     </main>
 
@@ -86,15 +122,14 @@
     <footer>
         <div class="all-baseboards">
             <div class="online-shopping">
-                <h3>NOSSOS MODELOS</h3>
-                <a href="/public/category/sunglasses.html" id="link">Óculos de Sol</a>
-                <a href="/public/category/eyeglasses.html" id="link">Óculos de Grau</a>
-                <h4>Para mais detalhes:</h4>
-                <a href="/public/brands.html" id="link">Nossas Marcas</a>
+                <h3><a href="/brands.html">Nossas Marcas</a></h3>
+                <p><a href="/category/armani-brand.html">ARMANI EXCHANGE</a></p>
+                <p><a href="/category/rayban-brand.html">RAY-BAN</a></p>
+                <p><a href="/category/oakley-brand.html">OAKLEY</a></p>
             </div>
             <div class="attendance">
                 <h3>ATENDIMENTO ONLINE</h3>
-                <a href="/public/sac.html" id="link">SAC</a>
+                <a href="/sac.html" id="link">SAC</a>
             </div>
             <div class="contact">
                 <h3>CONTATO</h3>
