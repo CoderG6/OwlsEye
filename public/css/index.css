@@ -37,7 +37,7 @@ label {
     color: var(--black);
 }
 
-label:focus {
+label:hover {
     color: var(--brown);
 }
 

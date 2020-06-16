@@ -133,15 +133,151 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 812px) {
-    .header-topbar {
-        height: auto;
-        line-height: 1.5;
-        padding-top: 20px;
-        padding-bottom: 10px;
+@media (min-width: 992px) {
+    #header .header-topbar {
+        background-color: var(--gray36);
+        color: var(--gray36);
+        height: 1em;
+        width: 100%;
+    }
+    
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    
+    .open-menu {
+        overflow: hidden;
+    }
+    
+    #overlay {
+        transition: all .5s ease-in-out;
+        display: none;
+    }
+    .open-menu #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        text-decoration: none;
+        color: var(--red);
+        background-color: var(--white);
+        background: transparent; 
+        z-index: 4;
+        display: flex;
+    }
+    
+    .open-menu #header .menu {
+        left: 0px;
+    }
+    
+    .open-menu #header #logo {
+        left: 87px;
+        right: initial;
+    }
+    #header .menu {
+        transition: left .5s ease-in-out;
+        width: 300px;
+        height: 100vh;
+        position: fixed;
+        right: -300px;
+        top: 0;
+        z-index: 3;
+        justify-content: space-between;
+    }
+    
+    #header #logo {
+        height: 14.5em;
+        width: 14.5em;
+        margin-top: -1em;
+        margin-left: 5em;
+    }
+    
+    #header .menu .all-selectors ul>li {
+        color: var(--black); 
+    }
+    
+    #divBusca {
+        background-color: var(--white36);
+        border: solid 2px var(--blue2);
+        margin-left: 11em;
+        margin-top: -1.2em;
+        margin-bottom: 4.6em;
+        border-radius: 10px;
+        width: 186px;
+        height: 27px;
+    }
+       
+    #txtBusca {
+        float: left;
+        background-color: transparent;
+        margin-bottom: 0em;
+        margin-top: 0em;
+        font-size: 18px;
+        border: none;
+        height: 1.5em;
+    }
+       
+    #btnBusca {
+        border: none;
+        cursor: pointer;
+        background: transparent;
+        margin-top: 2.5em;
+        width: 2em;
+        height: 2em;
+        border-radius: 0 7px 7px 0;
+    }
+    
+    #btn-open, #btn-close {
+        position: relative;
+        left: 0;
+
+    }
+    
+    #header #btn-open {
+        background: transparent; 
+        margin-top: -7.5em;
+        margin-bottom: 1em;
+        border: none;
+        height: 3.2em;
+        width: 3.6em;
+        overflow: hidden;
     }
 
-    .header-topbar .row {
-        justify-content: center;
+    #header button#btn-open img {
+        display: block;
+    }
+    
+    #header #divBusca button {
+        height: 2em;
+        width: 2em;
+    }
+    
+    #header #divBusca button#btnBusca img#search {
+        position: absolute;
+        transition: all 1s ease-in-out;
+        right: calc(50vw - 60px);
+        top: 15px;
+        z-index: 5;
+    }
+    
+    #header .menu #selectors-menu li {
+        color: var(--black);
+        text-decoration: none;
+    }
+    #header .menu #selectors-menu li.sub-menu {
+        color: var(--black);
+        text-decoration: none;
+    }
+    #header .header-topbar {
+    background-color: var(--gray36);
+    color: var(--gray36);
+    height: 1em;
+    width: 100%;
     }
 }
