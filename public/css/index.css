@@ -3,10 +3,8 @@
 @import 'header.css';
 @import 'footer.css';
 @import 'sac.css';
-@import 'brands.css';
 @import 'models.css';
 @import 'home.css';
-@import 'rayban-brand.css';
 
 * {
     box-sizing: border-box;

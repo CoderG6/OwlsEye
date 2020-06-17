@@ -1,3 +1,4 @@
+console.log("Site Criado Por Gui Ribeiro")
 const body = document.querySelector('body');
 const btnOpen = document.getElementById('btn-open');
 const closeMenu = document.querySelectorAll('[data-close="menu"]');
