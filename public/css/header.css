@@ -5,16 +5,7 @@
     width: 100%;
 }
 
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.open-menu {
+/* .open-menu {
     overflow: hidden;
 }
 
@@ -53,7 +44,7 @@
     top: 0;
     z-index: 3;
     justify-content: space-between;
-}
+} */
 
 #header #logo {
     height: 14.5em;
@@ -62,9 +53,9 @@
     margin-left: 5em;
 }
 
-#header .menu .all-selectors ul>li {
+/* #header .menu .all-selectors ul>li {
     color: var(--black); 
-}
+} */
 
 #divBusca {
     background-color: var(--white36);
@@ -97,7 +88,7 @@
     border-radius: 0 7px 7px 0;
 }
 
-#btn-open, #btn-close {
+/* #btn-open, #btn-close {
     position: relative;
     left: 0;
 }
@@ -109,7 +100,7 @@
     border: none;
     height: 3.2em;
     width: 3.6em;
-}
+} */
 
 #header #divBusca button {
     height: 2em;
@@ -124,15 +115,15 @@
     z-index: 5;
 }
 
-#header .menu #selectors-menu li {
+/* #header .menu #selectors-menu ul>li {
     color: var(--black);
     text-decoration: none;
 }
-#header .menu #selectors-menu li.sub-menu {
+#header .menu #selectors-menu ul>li.sub-menu {
     color: var(--black);
     text-decoration: none;
 }
-
+ */
 @media (min-width: 992px) {
     #header .header-topbar {
         background-color: var(--gray36);
@@ -141,16 +132,7 @@
         width: 100%;
     }
     
-    .row {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
-    }
-    
-    .open-menu {
+/*     .open-menu {
         overflow: hidden;
     }
     
@@ -177,19 +159,19 @@
     }
     
     .open-menu #header #logo {
-        left: 87px;
         right: initial;
+        left:0;
     }
     #header .menu {
         transition: left .5s ease-in-out;
         width: 300px;
         height: 100vh;
         position: fixed;
-        right: -300px;
+        left: 0;
         top: 0;
         z-index: 3;
         justify-content: space-between;
-    }
+    } */
     
     #header #logo {
         height: 15em;
@@ -198,9 +180,9 @@
         margin-left: 29.7em;
     }
     
-    #header .menu .all-selectors ul>li {
+/*     #header .menu .all-selectors ul>li {
         color: var(--black); 
-    }
+    } */
     
     #divBusca {
         background-color: var(--white36);
@@ -233,7 +215,7 @@
         border-radius: 0 7px 7px 0;
     }
     
-    #btn-open, #btn-close {
+/*     #btn-open, #btn-close {
         position: relative;
         left: 0;
 
@@ -247,7 +229,7 @@
         height: 3.2em;
         width: 3.6em;
         overflow: hidden;
-    }
+    } */
 
     #header button#btn-open img {
         display: block;
@@ -266,18 +248,12 @@
         z-index: 5;
     }
     
-    #header .menu #selectors-menu li {
+/*     #header .menu #selectors-menu ul>li {
         color: var(--black);
         text-decoration: none;
     }
-    #header .menu #selectors-menu li.sub-menu {
+    #header .menu #selectors-menu ul>li.sub-menu {
         color: var(--black);
         text-decoration: none;
-    }
-    #header .header-topbar {
-    background-color: var(--gray36);
-    color: var(--gray36);
-    height: 1em;
-    width: 100%;
-    }
+    } */
 }

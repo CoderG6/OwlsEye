@@ -5,6 +5,7 @@
 @import 'sac.css';
 @import 'models.css';
 @import 'home.css';
+@import '404.css';
 
 * {
     box-sizing: border-box;
@@ -41,6 +42,11 @@ label:hover {
 
 label:active {
     color: var(--white);
+}
+
+#male-page .container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
 }
 
 main {
