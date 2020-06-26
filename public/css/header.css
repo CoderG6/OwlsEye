@@ -257,3 +257,137 @@
         text-decoration: none;
     } */
 }
+
+@media (min-width: 1200px) {
+    #header .header-topbar {
+        background-color: var(--gray36);
+        color: var(--gray36);
+        height: 1em;
+        width: 100%;
+    }
+    
+/*     .open-menu {
+        overflow: hidden;
+    }
+    
+    #overlay {
+        transition: all .5s ease-in-out;
+        display: none;
+    }
+    .open-menu #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        text-decoration: none;
+        color: var(--red);
+        background-color: var(--white);
+        background: transparent; 
+        z-index: 4;
+        display: flex;
+    }
+    
+    .open-menu #header .menu {
+        left: 0px;
+    }
+    
+    .open-menu #header #logo {
+        right: initial;
+        left:0;
+    }
+    #header .menu {
+        transition: left .5s ease-in-out;
+        width: 300px;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 3;
+        justify-content: space-between;
+    } */
+    
+    #header #logo {
+        height: 24em;
+        width: 24em;
+        margin-top: 0;
+        margin-left: 35.5em;
+    }
+    
+/*     #header .menu .all-selectors ul>li {
+        color: var(--black); 
+    } */
+    
+    #divBusca {
+        background-color: var(--white36);
+        border: solid 2px var(--blue2);
+        margin-left: 75em;
+        margin-top: 1em;
+        margin-bottom: 4.4em;
+        border-radius: 10px;
+        width: 235px;
+        height: 30px;
+    }
+       
+    #txtBusca {
+        float: left;
+        background-color: transparent;
+        margin-bottom: 0em;
+        margin-top: 0em;
+        font-size: 20px;
+        border: none;
+        height: 1.5em;
+    }
+       
+    #btnBusca {
+        border: none;
+        cursor: pointer;
+        background: transparent;
+        margin-top: 2.5em;
+        width: 2em;
+        height: 2em;
+        border-radius: 0 7px 7px 0;
+    }
+    
+/*     #btn-open, #btn-close {
+        position: relative;
+        left: 0;
+
+    }
+    
+    #header #btn-open {
+        background: transparent; 
+        margin-top: -7.5em;
+        margin-bottom: 1em;
+        border: none;
+        height: 3.2em;
+        width: 3.6em;
+        overflow: hidden;
+    } */
+
+    #header button#btn-open img {
+        display: block;
+    }
+    
+    #header #divBusca button {
+        height: 2em;
+        width: 2em;
+    }
+    
+    #header #divBusca button#btnBusca img#search {
+        position: absolute;
+        transition: all 1s ease-in-out;
+        right: calc(50vw - 60px);
+        top: 15px;
+        z-index: 5;
+    }
+    
+/*     #header .menu #selectors-menu ul>li {
+        color: var(--black);
+        text-decoration: none;
+    }
+    #header .menu #selectors-menu ul>li.sub-menu {
+        color: var(--black);
+        text-decoration: none;
+    } */
+}
