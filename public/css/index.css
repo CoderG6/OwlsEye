@@ -6,6 +6,9 @@
 @import 'models.css';
 @import 'home.css';
 @import '404.css';
+@import 'male.css';
+@import 'female.css';
+@import 'child.css';
 
 * {
     box-sizing: border-box;
