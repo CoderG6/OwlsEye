@@ -1,0 +1,4 @@
+#male-page .container .glasses {
+    display: grid;
+    grid-template-columns: 510px 520px 510px;
+}

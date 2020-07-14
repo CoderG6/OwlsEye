@@ -1,0 +1,23 @@
+{
+  "name": "owlseye",
+  "version": "1.0.0",
+  "description": "Esse projeto foi desenvolvido por Guilherme Ribeiro, um desafio do curso da Hcode Lab onde os participantes deveriam desenvolver um site com todo o conhecimento que haviam recebido durante o curso.\r Esse desafio foi projetado para incentivar a ser um autodidata e a por em prática tudo o que aprendemos.",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^7.15.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderG6/OwlsEye.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoderG6/OwlsEye/issues"
+  },
+  "homepage": "https://github.com/CoderG6/OwlsEye#readme"
+}
