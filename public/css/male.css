@@ -1,8 +1,61 @@
-#male-page .container .glasses {
+#male-page .container .glasses #AE {
+    margin-top: 2em;
+    margin-left: 1.2em;
     display: grid;
-    grid-template-columns: 510px 520px 510px;
+    grid-template-columns:  510px 520px 510px;
+}
+
+#male-page .container .glasses #RB {
+    margin-left: 1.2em;
+    display: grid;
+    grid-template-columns:  510px 520px 510px;
+}
+
+#male-page .container .glasses #O {
+    margin-left: 1.2em;
+    margin-top: -1em;
+    margin-bottom: 8.5em;
+    display: grid;
+    grid-template-columns:  510px 520px 510px;
+}
+
+#male-page .container .glasses #gradient1 {
+    background-color: var(--red);
+    margin-top: -1em;
+    margin-left: 2em;
+    height: 5px;
+    width: 40px;
+}
+#male-page .container .glasses #gradient2 {
+    background-color: var(--blue1);
+    margin-left: 2em;
+    height: 5px;
+    width: 30px;
+}
+
+#male-page .container .glasses h1 {
+    display: block;
+    margin-left: 1em;
+    font-family: "ALBA____";
+    font-size: 4.5em;
 }
 
 #male-page .container .glasses h2 {
     text-align: center;
+    font-weight: bolder;
 }
+
+#male-page .container .glasses h3 {
+    text-align: center;
+    margin-top: -0.8em;
+    font-size: 6mm;
+}
+
+#male-page .container .glasses img {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px 16px var(--white123); 
+    box-shadow: 0px 0px 15px 16px var(--white123);
+}
+
+@media (min-width: 992px) {}
