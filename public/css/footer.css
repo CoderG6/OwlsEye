@@ -64,7 +64,7 @@ footer {
     font-size: 10px;
 }
 
-@media (min-width: 992px) {
+@media (max-height: 992px) {
     footer {
         width: 100%;
     }

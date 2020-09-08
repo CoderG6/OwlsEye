@@ -11,6 +11,14 @@
 
     "liveServer.settings.NoBrowser" : false,
 
+    "discord.detailsEditing": "📑 Editando: {filename}",
+
+    "discord.lowerDetailsEditing": "📁 Do Projeto: {workspace}",
+
+    "discord.detailsIdle": "Nothing...",
+
+    "discord.lowerDetailsIdle": "Nadinha ;-;",
+
     "liveServer.settings.ignoreFiles" : [
 
         ".vscode/**"
